@@ -1,5 +1,5 @@
 main {
-width: 80%;
+width: 70%;
 margin: 0 auto;
 text-align: center;
 }
@@ -8,3 +8,42 @@ text-align: center;
     color: rgb(236, 42, 74);
     font-family: 'Fedoka One', Courier, monospace;
 }
+
+/* schede da copiare */
+.card {
+    float: left;
+    width: calc(100% / 3.5);
+    height: 70px;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 1px;
+    margin: 20px;
+}
+
+.descrizione {
+    color: white;
+    margin: auto 5px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+h3 {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+
+img {
+    object-fit:cover;
+    height: 100%;
+    width:calc(100% / 4);
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+
